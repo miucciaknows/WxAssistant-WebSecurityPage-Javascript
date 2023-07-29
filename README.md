@@ -67,8 +67,8 @@ Take the credentials that you copy in **step 3** and paste then in **html file:*
 ![Watson Assistant Security](./Images/7.png)
 
 Now get back into your project, Copy your **public key** provited by IBM and paste in into **keys/key.pub.**
-!
-[Watson Assistant Security](./Images/8.png)
+
+![Watson Assistant Security](./Images/8.png)
 
 -> Keep your **public key** and your **private key** in the **/keys** directory.
 
@@ -77,8 +77,6 @@ In your terminal:
 1. Run `npm install`
 
 2. Start the Node.js server `nodemon` or `node server.js`
-
-![Watson Assistant Security](./Images/9.png)
 
 3. Open a brownser and type: `localhost:8080/token`
 
