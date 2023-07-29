@@ -42,31 +42,33 @@ On the same page, click in **website tab**
 Copy **integrationID. // The ID of this integration.**, **region: "", // The region your integration is hosted in.**,
 And then past it on **(index.html)**.
 
-4. Click on **security** tab.
-
 ![Watson Assistant Security](./Images/4.png)
 
-5. **Enable security into your Assistant.**
+4. Go to **security** tab.
 
 ![Watson Assistant Security](./Images/5.png)
 
-6. Copy all your **public key and store** in a safe place.
+**Enable security into your Assistant.**
 
 ![Watson Assistant Security](./Images/6.png)
 
-7. Then paste your key that you created, with `openssl genrsa -out key.pem 2048` command.
+Copy all your **public key and store** in a safe place.
+
+![Watson Assistant Security](./Images/6.png)
+
+Then paste your key that you created, with `openssl genrsa -out key.pem 2048` command.
 
 ![Watson Assistant Security](./Images/6-2.png)
 
 Now it's time to open your project again (I'm using Visual Studio to code this project)
 
-Take the credentials that you copy in **step 4** and paste then in **html file:**
+Take the credentials that you copy in **step 3** and paste then in **html file:**
 
 ![Watson Assistant Security](./Images/7.png)
 
-Take **the public key** and you created in **step 6** and now paste into a file **key.pub**
-
-![Watson Assistant Security](./Images/8.png)
+Now get back into your project, Copy your **public key** provited by IBM and paste in into **keys/key.pub.**
+!
+[Watson Assistant Security](./Images/8.png)
 
 -> Keep your **public key** and your **private key** in the **/keys** directory.
 
