@@ -1,16 +1,16 @@
 # Watson Assistant Security - Instructions
 
-I made this based on IBM's **Watson Assistant Documentation**, click [here](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-security-enable) to know more about it.
+I made this based on IBM's **Watson Assistant Documentation**, click [here](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-security-enable) to learn more about it.
 
 **Requirements to start:**
 
 - Watson Assistant Instance
 - A Assistant configured
 
-Assuming that you already have an Assistant configured, followed those steps above:
+Assuming that you already have an **Watson Assistant** configured, followed those steps above:
 
 1. Open your terminal and then type:
-   `git clone https://github.com/miucciaknows/WatsonAssistant-Security.git`
+   `git clone https://github.com/miucciaknows/Watson-Assistant-WebSecurityPage`
 
 2. Now you're going to access you directory:
 
