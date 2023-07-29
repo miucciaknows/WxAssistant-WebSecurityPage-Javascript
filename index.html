@@ -1,0 +1,45 @@
+<!-- 
+Import: Before use, fill your credentials files in the indexedDB.html file, and fill your public and private keys in Keys folder. 
+For more informations, read the README.md file.
+ -->
+ <!DOCTYPE html>
+ <html class="no-js" lang="en"><head>
+         <meta charset="utf-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>Watson Assistant </title>
+             </head>
+ 
+     <body id="page-top" class="index" data-new-gr-c-s-check-loaded="14.1028.0" data-gr-ext-installed="" >
+ 
+ <script>
+       console.log('<%= jwt %>')
+   window.watsonAssistantChatOptions = {
+         integrationID: "", // The ID of this integration.
+         region: "us-south", // The region your integration is hosted in.
+         serviceInstanceID: "", // The ID of your service instance.
+   identityToken:"<%= jwt %>",
+   onLoad: function(instance) {
+     //instance.on({ type: 'identityTokenExpired', handler: function(event) {
+       // Perform whatever actions you need to take on your system to get a new token.
+      // return new Promise(function(resolve, reject) {
+         // And then pass the new JWT into the callback and the service will resume processing messages.
+ //	      event.identityToken = '<%= jwt %>';
+   //      resolve();
+     //  });
+    // }});
+     instance.render();
+   }
+ };
+     setTimeout(function(){
+       const t=document.createElement("script");
+       t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js"
+       document.head.appendChild(t);
+     });
+   </script>
+ 
+ </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+ </html>
+ 
+ 
+ 
