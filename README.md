@@ -40,7 +40,7 @@ Click in **website tab**
 ![Watson Assistant Security](./Images/3.png)
 
 Copy **integrationID. // The ID of this integration.**, **region: "", // The region your integration is hosted in.**,
-And then past it on **(index.html)**.
+and store it on a safe place.
 
 ![Watson Assistant Security](./Images/4.png)
 
