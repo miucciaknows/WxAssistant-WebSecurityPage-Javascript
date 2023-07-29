@@ -19,17 +19,9 @@ Assuming that you already have an **Watson Assistant** configured, followed thos
 3. Open your terminal and then type:
    `openssl genrsa -out key.pem 2048`
 
-Go to HTML code and provide your: **integrationID. // The ID of this integration.**
-<br>
-
-**region: "", // The region your integration is hosted in.**
-<br>
-
-**serviceInstanceID: // The ID of your service instance.**
+This will provide you a **private key.**
 
 All this information can be found in your **Watson's Assistant Instance**, follow the images above to get it:
-
-This will provide you a **private key.**
 
 **Now:**
 
@@ -47,7 +39,10 @@ On the same page, click in **website tab**
 
 ![Watson Assistant Security](./Images/3.png)
 
-4. Copy your credentials and then, click on **security** tab.
+Copy **integrationID. // The ID of this integration.**, **region: "", // The region your integration is hosted in.**,
+And then past it on **(index.html)**.
+
+4. Click on **security** tab.
 
 ![Watson Assistant Security](./Images/4.png)
 
