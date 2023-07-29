@@ -1,6 +1,6 @@
 # Watson Assistant Security - Instructions
 
-I made this based on IBM's **Watson Assistant Documentation**, click [here](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-security-enable) to learn more about it.
+click [here](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-security-enable) to learn more about wen security in Watson Assistant on IBM Cloud.
 
 **Requirements to start:**
 
@@ -31,7 +31,7 @@ All this information can be found in your **Watson's Assistant Instance**, follo
 
 2. Click on **Environments tab**, it's on left side of screen.
 
-On the same page, click in **website tab**
+Click in **website tab**
 
 ![Watson Assistant Security](./Images/2.png)
 
