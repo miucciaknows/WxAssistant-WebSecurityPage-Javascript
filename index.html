@@ -18,7 +18,7 @@ For more informations, read the README.md file.
          integrationID: "", // The ID of this integration.
          region: "us-south", // The region your integration is hosted in.
          serviceInstanceID: "", // The ID of your service instance.
-   identityToken:"<%= jwt %>",
+   identityToken:"<%= jwt %>", //Passing the token to HTML
    onLoad: function(instance) {
      //instance.on({ type: 'identityTokenExpired', handler: function(event) {
        // Perform whatever actions you need to take on your system to get a new token.
