@@ -85,5 +85,3 @@ In your terminal:
 4. Then go to: `localhost:8080/Assistant`
 
 ![Watson Assistant Security](./Images/10.png)
-
-5. Click on the chatbot icon on the bottom right.
