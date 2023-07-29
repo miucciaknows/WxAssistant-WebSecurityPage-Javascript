@@ -80,10 +80,10 @@ In your terminal:
 
 3. Open a brownser and type: `localhost:8080/token`
 
-![Watson Assistant Security](./Images/10.png)
+![Watson Assistant Security](./Images/9.png)
 
 4. Then go to: `localhost:8080/Assistant`
 
-![Watson Assistant Security](./Images/11.png)
+![Watson Assistant Security](./Images/10.png)
 
 5. Click on the chatbot icon on the bottom right.
