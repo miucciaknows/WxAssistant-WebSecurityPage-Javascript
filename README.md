@@ -1,24 +1,29 @@
 # Watsonx Assistant Security - Instructions
 
-click [here](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-security-enable) to learn more about security in Watsonx Assistant on IBM Cloud.
+This repository aims to demonstrate how to configure the message security aspect using Watsonx Assistant. To use it, you need to be familiar with the basics of Assistant. If you are unfamiliar and want to learn more, visit the following links:
+- https://medium.com/@nathalia.trazzi/list/watsonx-assistant-series-english-97cbc18f5b76
+- https://github.com/miucciaknows/WxAssistant-API-Python
+- https://github.com/miucciaknows/WxAssistant-API-Javascript
+
+-> In 2023, IBM launched Watsonx. Watsonx is a range of artificial intelligence products owned by IBM. Watson Assistant was renamed Watsonx Assistant, gaining new features and becoming part of Watsonx's range of products. Some names in the screenshots may appear as Watson Assistant because they were taken before the product gained an "x" in its name.
 
 **Requirements to start:**
 
-- Watsonx Assistant Instance
-- A Assistant configured
+- A Watsonx Assistant Instance on IBM Cloud
+- An Assistant configured
 
 Assuming that you already have an **Watsonx Assistant** configured, followe the steps above:
-
 1. Open your terminal and then type:
    
 `git clone https://github.com/miucciaknows/Watson-Assistant-WebSecurityPage`
 
-2. Now you're going to access you directory:
+2. Now you're going to access, the followed directory:
 
 `cd WatsonAssistant-Security/keys`
 
 3. Open your terminal and then type:
-   `openssl genrsa -out key.pem 2048`
+4. 
+`openssl genrsa -out key.pem 2048`
 
 This will provide you a **private key.**
 
@@ -57,7 +62,7 @@ Copy all your **public key and store** in a safe place.
 
 ![Watsonx Assistant Security](./Images/6.png)
 
-Then paste your key that you created, with `openssl genrsa -out key.pem 2048` command.
+Then paste your key that you created earlier, with `openssl genrsa -out key.pem 2048` command.
 
 ![Watsonx Assistant Security](./Images/6-2.png)
 
@@ -86,3 +91,5 @@ In your terminal:
 4. Then go to: `localhost:8080/Assistant`
 
 ![Watsonx Assistant Security](./Images/10.png)
+
+click [here](https://cloud.ibm.com/docs/watson-assistant?topic=watson-assistant-web-chat-security-enable) to learn more about security in Watsonx Assistant on IBM Cloud.
